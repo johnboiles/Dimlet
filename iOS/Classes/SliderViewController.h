@@ -22,21 +22,15 @@
 
 
 @interface SliderViewController : UIViewController {
-    IBOutlet UISlider* slider1;
-    IBOutlet UISlider* slider2;
-    IBOutlet UISlider* slider3;
-    IBOutlet UISlider* slider4;
-    IBOutlet UISwitch* lockSwitch;
+  IBOutlet UISlider* _slider1;
+  IBOutlet UISlider* _slider2;
+  IBOutlet UISlider* _slider3;
+  IBOutlet UISlider* _slider4;
+  IBOutlet UISwitch* _lockSwitch;
 }
 
-@property (nonatomic, retain) UISlider *slider1;
-@property (nonatomic, retain) UISlider *slider2;
-@property (nonatomic, retain) UISlider *slider3;
-@property (nonatomic, retain) UISlider *slider4;
-@property (nonatomic, retain) UISwitch *lockSwitch;
+- (IBAction)sliderValueChange:(UISlider *)sender;
 
-- (IBAction)sliderValueChange: (UISlider *)sender;
-- (IBAction)lockSwitchChange;
 - (void)readSliders;
 
 @end

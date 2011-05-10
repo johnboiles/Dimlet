@@ -22,19 +22,10 @@
 #import "LightControl.h"
 
 @interface FirstViewController : UIViewController <UIAccelerometerDelegate> {
-
-    BOOL on;
-    IBOutlet UISlider* sensitivity;
-    IBOutlet UISlider* baseLevel;
-    IBOutlet UISwitch* directionBased;
+  BOOL _on;
+  IBOutlet UISlider* _sensitivitySlider;
+  IBOutlet UISlider* _baseLevelSlider;
+  IBOutlet UISwitch* _directionBasedSwitch;
 }
-
-
-@property (nonatomic) BOOL on;
-@property (nonatomic, retain) UISlider* sensitivity;
-@property (nonatomic, retain) UISlider* baseLevel;
-@property (nonatomic, retain) UISwitch* directionBased;
-
-
 
 @end

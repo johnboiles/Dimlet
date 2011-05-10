@@ -29,13 +29,13 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
-#define SERVERPORT 4950			// the port users will be connecting to
+#define SERVERPORT 4950
 
 //Initialize network connection
-int SUDP_Init(char* ipaddress);
+int SUDP_Init(char *ipaddress);
 
 //Send a UDP packet
-int SUDP_SendMsg(const char * data, int length);
+int SUDP_SendMsg(const char *data, int length);
 
 //Close the socket
 int SUDP_Close();

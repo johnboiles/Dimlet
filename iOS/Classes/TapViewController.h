@@ -20,19 +20,23 @@
 
 #import <UIKit/UIKit.h>
 
+typedef struct {
+  float light1;
+  float light2;
+  float light3;
+  float light4;
+} LightState;
 
 @interface TapViewController : UIViewController <UIPickerViewDataSource,UIPickerViewDelegate>{
+  IBOutlet UIButton *_tapper;
+  IBOutlet UILabel *_bpmLabel;
+  IBOutlet UIPickerView *_patternPicker;
+  NSTimer *_timer;
 
-    IBOutlet UIButton* tapper;
-    IBOutlet UILabel *bpmLabel;
-    IBOutlet UIPickerView *patternPicker;
-    NSTimer *timer;
-    
+  NSInteger _stateCounter; 
+  CFAbsoluteTime _taps[4];
+  NSInteger _tapCount;
 }
-
-@property (nonatomic, retain) UIButton *tapper;
-@property (nonatomic, retain) UILabel *bpmLabel;
-@property (nonatomic, retain) UIPickerView *patternPicker;
 
 - (IBAction)tapButton;
 

@@ -12,18 +12,20 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
-		282CCBFE0DB6C98000C4EA27 /* SliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SliderView.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
-		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		4207295E101B806A00F37AE5 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4207295C101B806A00F37AE5 /* TapViewController.m */; };
-		42072961101B80CD00F37AE5 /* TapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42072960101B80CD00F37AE5 /* TapView.xib */; };
+		421D371D137925DF0088F83A /* LightControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 421D371C137925DF0088F83A /* LightControl.m */; };
+		421D372A137926770088F83A /* dance.png in Resources */ = {isa = PBXBuildFile; fileRef = 421D371F137926770088F83A /* dance.png */; };
+		421D372D137926770088F83A /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421D3722137926770088F83A /* FirstView.xib */; };
+		421D372E137926770088F83A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421D3723137926770088F83A /* MainWindow.xib */; };
+		421D372F137926770088F83A /* slide.png in Resources */ = {isa = PBXBuildFile; fileRef = 421D3724137926770088F83A /* slide.png */; };
+		421D3731137926770088F83A /* SliderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421D3726137926770088F83A /* SliderView.xib */; };
+		421D3732137926770088F83A /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 421D3727137926770088F83A /* tap.png */; };
+		421D3734137926770088F83A /* TapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 421D3729137926770088F83A /* TapView.xib */; };
+		421D3736137926DD0088F83A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 421D3735137926DD0088F83A /* icon.png */; };
+		421D37381379272B0088F83A /* Dimlet-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 421D37371379272B0088F83A /* Dimlet-Info.plist */; };
 		42C1C0B1101618170087E90A /* SendUDP.c in Sources */ = {isa = PBXBuildFile; fileRef = 42C1C0B0101618170087E90A /* SendUDP.c */; };
-		42C1C0B4101618200087E90A /* LightControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C1C0B2101618200087E90A /* LightControl.m */; };
-		42C783C1101E5141007308DE /* dance.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C783C0101E5141007308DE /* dance.png */; };
-		42C783C3101E5616007308DE /* slide.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C783C2101E5616007308DE /* slide.png */; };
-		42C783C5101E57A1007308DE /* tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 42C783C4101E57A1007308DE /* tap.png */; };
 		42CC02E110183EA5000BB1AE /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CC02E010183EA5000BB1AE /* SliderViewController.m */; };
-		42CC041F1018C66B000BB1AE /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CC041E1018C66B000BB1AE /* FirstView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,25 +36,26 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		282CCBFD0DB6C98000C4EA27 /* SliderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SliderView.xib; sourceTree = "<group>"; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* Dimlet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dimlet_Prefix.pch; sourceTree = "<group>"; };
-		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4207295B101B806A00F37AE5 /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
 		4207295C101B806A00F37AE5 /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
-		42072960101B80CD00F37AE5 /* TapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TapView.xib; sourceTree = "<group>"; };
+		421D371B137925DF0088F83A /* LightControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightControl.h; sourceTree = "<group>"; };
+		421D371C137925DF0088F83A /* LightControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightControl.m; sourceTree = "<group>"; };
+		421D371F137926770088F83A /* dance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dance.png; sourceTree = "<group>"; };
+		421D3722137926770088F83A /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		421D3723137926770088F83A /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		421D3724137926770088F83A /* slide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slide.png; sourceTree = "<group>"; };
+		421D3726137926770088F83A /* SliderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliderView.xib; sourceTree = "<group>"; };
+		421D3727137926770088F83A /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
+		421D3729137926770088F83A /* TapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapView.xib; sourceTree = "<group>"; };
+		421D3735137926DD0088F83A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		421D37371379272B0088F83A /* Dimlet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Dimlet-Info.plist"; path = "../Dimlet-Info.plist"; sourceTree = "<group>"; };
 		42C1C0AF101618170087E90A /* SendUDP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendUDP.h; sourceTree = "<group>"; };
 		42C1C0B0101618170087E90A /* SendUDP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SendUDP.c; sourceTree = "<group>"; };
-		42C1C0B2101618200087E90A /* LightControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightControl.m; sourceTree = "<group>"; };
-		42C1C0B3101618200087E90A /* LightControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightControl.h; sourceTree = "<group>"; };
-		42C783C0101E5141007308DE /* dance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dance.png; sourceTree = "<group>"; };
-		42C783C2101E5616007308DE /* slide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slide.png; sourceTree = "<group>"; };
-		42C783C4101E57A1007308DE /* tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tap.png; sourceTree = "<group>"; };
 		42CC02DF10183EA5000BB1AE /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
 		42CC02E010183EA5000BB1AE /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
-		42CC041E1018C66B000BB1AE /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Dimlet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Dimlet-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				421D371B137925DF0088F83A /* LightControl.h */,
+				421D371C137925DF0088F83A /* LightControl.m */,
 				42CC02DF10183EA5000BB1AE /* SliderViewController.h */,
 				42CC02E010183EA5000BB1AE /* SliderViewController.m */,
 				28216C950DB411BC00E5133A /* FirstViewController.h */,
@@ -97,7 +102,7 @@
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
+				421D371E137926770088F83A /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -107,29 +112,12 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				42C1C0B2101618200087E90A /* LightControl.m */,
-				42C1C0B3101618200087E90A /* LightControl.h */,
 				42C1C0AF101618170087E90A /* SendUDP.h */,
 				42C1C0B0101618170087E90A /* SendUDP.c */,
 				28A0AB4B0D9B1048005BE974 /* Dimlet_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
-			sourceTree = "<group>";
-		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				42C783C2101E5616007308DE /* slide.png */,
-				42C783C4101E57A1007308DE /* tap.png */,
-				42C783C0101E5141007308DE /* dance.png */,
-				42072960101B80CD00F37AE5 /* TapView.xib */,
-				282CCBFD0DB6C98000C4EA27 /* SliderView.xib */,
-				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* Dimlet-Info.plist */,
-				42CC041E1018C66B000BB1AE /* FirstView.xib */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
@@ -140,6 +128,22 @@
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		421D371E137926770088F83A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				421D37371379272B0088F83A /* Dimlet-Info.plist */,
+				421D3735137926DD0088F83A /* icon.png */,
+				421D371F137926770088F83A /* dance.png */,
+				421D3724137926770088F83A /* slide.png */,
+				421D3727137926770088F83A /* tap.png */,
+				421D3722137926770088F83A /* FirstView.xib */,
+				421D3723137926770088F83A /* MainWindow.xib */,
+				421D3726137926770088F83A /* SliderView.xib */,
+				421D3729137926770088F83A /* TapView.xib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,13 +192,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				282CCBFE0DB6C98000C4EA27 /* SliderView.xib in Resources */,
-				42CC041F1018C66B000BB1AE /* FirstView.xib in Resources */,
-				42072961101B80CD00F37AE5 /* TapView.xib in Resources */,
-				42C783C1101E5141007308DE /* dance.png in Resources */,
-				42C783C3101E5616007308DE /* slide.png in Resources */,
-				42C783C5101E57A1007308DE /* tap.png in Resources */,
+				421D372A137926770088F83A /* dance.png in Resources */,
+				421D372D137926770088F83A /* FirstView.xib in Resources */,
+				421D372E137926770088F83A /* MainWindow.xib in Resources */,
+				421D372F137926770088F83A /* slide.png in Resources */,
+				421D3731137926770088F83A /* SliderView.xib in Resources */,
+				421D3732137926770088F83A /* tap.png in Resources */,
+				421D3734137926770088F83A /* TapView.xib in Resources */,
+				421D3736137926DD0088F83A /* icon.png in Resources */,
+				421D37381379272B0088F83A /* Dimlet-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,9 +215,9 @@
 				1D3623260D0F684500981E51 /* DimletAppDelegate.m in Sources */,
 				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
 				42C1C0B1101618170087E90A /* SendUDP.c in Sources */,
-				42C1C0B4101618200087E90A /* LightControl.m in Sources */,
 				42CC02E110183EA5000BB1AE /* SliderViewController.m in Sources */,
 				4207295E101B806A00F37AE5 /* TapViewController.m in Sources */,
+				421D371D137925DF0088F83A /* LightControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

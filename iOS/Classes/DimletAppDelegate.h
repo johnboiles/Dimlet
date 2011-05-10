@@ -22,14 +22,15 @@
 #import "LightControl.h"
 
 @interface DimletAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
-    LightControl *lightControl;
-    UIWindow *window;
-    UITabBarController *tabBarController;
+    LightControl *_lightControl;
+    UIWindow *_window;
+    UITabBarController *_tabBarController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 @property (nonatomic, retain) LightControl *lightControl;
+
 @end
 
 

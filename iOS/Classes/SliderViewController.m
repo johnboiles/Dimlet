@@ -23,95 +23,36 @@
 
 @implementation SliderViewController
 
-@synthesize slider1;
-@synthesize slider2;
-@synthesize slider3;
-@synthesize slider4;
-@synthesize lockSwitch;
-
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-/*
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
-
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-/*
-- (void)viewDidLoad {
-    [super viewDidLoad];
-
-}
-*/
-
 - (void)viewDidAppear:(BOOL)animated{
-    [self readSliders];
+  [self readSliders];
 }
 
-
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
-}
-
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
-}
-
-- (IBAction)lockSwitchChange{
-    
-}
-
-//Send a command based on the values of the sliders
+//! Send a command based on the values of the sliders
 - (void)readSliders{
     DimletAppDelegate *appDelegate = (DimletAppDelegate *)[[UIApplication sharedApplication] delegate];    
-    [appDelegate.lightControl sendCommandToLights:slider1.value:slider2.value:slider3.value:slider4.value];
+    [appDelegate.lightControl sendCommandToLight1:_slider1.value
+                                           light2:_slider2.value
+                                           light3:_slider3.value
+                                           light4:_slider4.value];
 }
 
 - (IBAction)sliderValueChange: (UISlider *)sender{
-    //If the sliders are locked together, update all of them with value from the sender
-    if(lockSwitch.on){
-        if(sender != slider1){
-            [slider1 setValue:sender.value animated:false];
-        }
-        if(sender != slider2){
-            [slider2 setValue:sender.value animated:false];
-        }
-        if(sender != slider3){
-            [slider3 setValue:sender.value animated:false];
-        }
-        if(sender != slider4){
-            [slider4 setValue:sender.value animated:false];
-        }
+  // If the sliders are locked together, update all of them with value from the sender
+  if (_lockSwitch.on) {
+    if (sender != _slider1) {
+      [_slider1 setValue:sender.value animated:false];
     }
-    
-    [self readSliders];
+    if (sender != _slider2) {
+      [_slider2 setValue:sender.value animated:false];
+    }
+    if (sender != _slider3) {
+      [_slider3 setValue:sender.value animated:false];
+    }
+    if (sender != _slider4) {
+      [_slider4 setValue:sender.value animated:false];
+    }
+  }
+  [self readSliders];
 }
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end

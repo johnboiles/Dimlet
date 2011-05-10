@@ -20,16 +20,10 @@
 
 #import "SendUDP.h"
 
-@interface LightControl : NSObject {
-    //Array of 
-    //NSMutableArray* intensities;
-    char intensities[4];
-}
-
-//@property (nonatomic, retain) NSMutableArray* intensities;
-//@property (nonatomic, retain) char* intensities;
+@interface LightControl : NSObject { }
 
 - (void)stop;
-- (void)sendCommandToLights: (float)light1:(float)light2:(float)light3:(float)light4;
+
+- (void)sendCommandToLight1:(float)light1 light2:(float)light2 light3:(float)light3 light4:(float)light4;
 
 @end
