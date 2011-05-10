@@ -1,0 +1,13 @@
+.DS_Store
+AVR/build
+iOS/build
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+xcuserdata
+*.elf
+*.hex
+*.o
+
